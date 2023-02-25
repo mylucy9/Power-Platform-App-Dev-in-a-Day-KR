@@ -44,6 +44,7 @@ namespace BasicAuthApp
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.BadRequest, contentType: "text/plain", bodyType: typeof(string), Description = "The bad request response")]
         // ⬆️⬆️⬆️ 위의 코드 주석을 풀어주세요 ⬆️⬆️⬆️
 
+
         public async Task<IActionResult> GetProfile(
             [HttpTrigger(AuthorizationLevel.Function, "GET", Route = "profile")] HttpRequest req)
         {
