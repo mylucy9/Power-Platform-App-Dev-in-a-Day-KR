@@ -4,5 +4,14 @@
     "suffix": "api-key-auth",
     "path": "ApiKeyAuthApp",
     "nv": "API_KEY_AUTH"
+  },
+
+  // ⬇️⬇️⬇️ 아래 JSON 개체를 추가하세요 ⬇️⬇️⬇️
+  {
+    "name": "basicauth",
+    "suffix": "basic-auth",
+    "path": "BasicAuthApp",
+    "nv": "BASIC_AUTH"
   }
+  // ⬆️⬆️⬆️ 위 JSON 개체를 추가하세요 ⬆️⬆️⬆️
 ]
