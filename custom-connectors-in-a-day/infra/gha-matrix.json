@@ -6,12 +6,10 @@
     "nv": "API_KEY_AUTH"
   },
 
-  
   {
     "name": "basicauth",
     "suffix": "basic-auth",
     "path": "BasicAuthApp",
     "nv": "BASIC_AUTH"
   }
-  
 ]
